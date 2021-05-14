@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    overflow: hidden;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* <====== CLASS SỬ DỤNG CHUNG =====> */
+.btn {
+    padding: 12px 22px;
+    color: #fff;
+    border-radius: 30px;
+    background: #BA71DA;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: normal;
+}
+
+/* <====== CLASS SỬ DỤNG CHUNG =====> */
+.wallpaper {
+    background-image: url("image/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40%;
+    filter: brightness(85%);
+    position: relative;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 33px 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .header-main {
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.header .header-left { 
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.header .header-left__logo {
+    width: 160px;
+    height: 38px;
+    margin-right: 91px;
+    margin-left: 15px;
+}
+
+.header .header-left ul {
+    list-style-type: none;
+    flex-basis: 1;
+
+}
+
+.header .header-left ul li{
+    display: inline-block;
+}
+
+.header .header-left ul li a {
+    margin-right: 58px;
+    /* margin-right: 2.5vw; */
+    /* padding: 0 29px; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: inline-block;
+    font-weight: 500;
+}
+/* @media only screen and (max-width: 1409px) {
+    .header .header-left ul li a {
+        margin-right: 50px !important;
+    }
+} */
+
+.header .header-right {
+    padding: 0 15px;
+    margin-left: auto;
+}
+
+.header .header-right label img {
+    color: #fff;
+    width: 25px;
+    pointer-events: none;
+}
+
+.height {
+    height: 1500px;
+}
